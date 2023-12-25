@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #24353f;
+  }
+  .home {
+    margin-left: 15% !important;
+  }
+  .smart {
+    font-family: "Titillium Web", sans-serif;
+    line-height: 30px;
+    font-size: 20px;
+    margin: 0px 16px 0px 0px;
+    padding: 5px 0px;
+    font-weight: 400;
+  
+    cursor: pointer !important;
+  }
+  h2 {
+    color: #17a2b8;
+    font-family: "Titillium Web", sans-serif;
+    line-height: 48px;
+    font-size: 40px;
+    font-weight: 500;
+  }

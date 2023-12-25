@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&family=Alegreya+Sans:ital,wght@0,100;1,100;1,400&family=Alegreya:ital@1&family=Amatic+SC&family=Bree+Serif&family=Fira+Code:wght@700&family=Fira+Mono:wght@700&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Poppins&family=Righteous&family=Roboto:wght@700;900&family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <section class="container my-5">
+        <div class="login mx-auto p-5 w-75">
+            <h1 class="text-center">Smart Login System</h1>
+            <form>
+                <input id="signinEmail" class="form-control my-3 bg-transparent" placeholder="Enter your email" type="text">
+                <input id="signinPassword" type="password" class="bg-transparent form-control my-3"
+                placeholder="Enter your password">
+                <p class="text-danger text-center" id="incorrect"></p>
+                <a id="welcome" href="#"><button class="btn btn-outline-info  mx-auto form-control my-3 mx-2" type="button" onclick="logIn()" >Login</button></a>
+            </form>
+            <p class="text-white text-center"> Don't have an account? <a class="text-white" href="signUp.html"> Sign Up</a></p>
+        </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/signup.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
