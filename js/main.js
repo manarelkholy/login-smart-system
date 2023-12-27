@@ -29,6 +29,8 @@ function logIn() {
     } else if (checkAll() == true) {
         link.href = 'home.html';
         
+    
+        
     } else {
         document.getElementById('incorrect').innerHTML = "incorrect"
     }
